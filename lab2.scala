@@ -25,8 +25,8 @@ class Change private (ax: Map[Int,Int]) {
 
 object Lab2 {
   def main(args: Array[String]) {
-   val vector = new Custom(8669)
-   val vector1 = new Custom(1235)
+   val vector = new Change(8669)
+   val vector1 = new Change(1235)
    println(vector.money)
    println((vector-vector1).money)
   }
